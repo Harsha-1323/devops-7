@@ -1,1 +1,8 @@
-this is demo file.
+-:Simple calculator:-
+ #!/bin/bash
+ read -p "Enter Your First number:" a
+ read -p "Enter Your Another Number:" b
+ echo "sum: $((a + b))"
+ echo "mul: $((a * b))"
+ echo "product: $((a / b))"
+ echo "sub: $((a - b))"                                               
